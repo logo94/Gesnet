@@ -64,7 +64,7 @@ body {
 @media (min-width: 768px) { 
 
     #main {
-        background: url('/img/gesnet-bg.png');
+        background: url("../img/gesnet-bg.png");
         background-repeat: no-repeat;
         background-size:cover; 
         height: 100vh;
