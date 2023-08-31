@@ -3,7 +3,7 @@ body {
 }
 
 #main {
-    background: url('../img/poster-mobile.png') center;
+    background: url('img/poster-mobile.png') center;
     background-repeat: no-repeat;
     background-size: cover; 
     height: 100vh;
