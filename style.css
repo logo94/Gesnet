@@ -1,0 +1,96 @@
+body {
+    width: 100%;
+}
+
+#main {
+    background: url('/img/poster-mobile.png') center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+}
+
+.navbar a {
+    display: none
+}
+
+#main-subtitle {
+    margin-top: 15%;
+}
+
+.card-img-top .mx-auto .rounded img {
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#menu {
+    margin: 1em;
+    text-shadow: 5px black solid;
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.nav-link {
+    margin-right: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.row.text-center.text-white {
+    margin-top: 25%;
+}
+
+#citation {
+    background-color: rgb(220, 232, 255);
+}
+
+#summary {
+    background-color: rgb(220, 232, 255);
+}
+
+#model {
+    background-color: rgb(220, 232, 255);
+}
+
+#tools {
+    background-color: rgb(220, 232, 255);
+}
+
+#build {
+    background-color: rgb(220, 232, 255);
+}
+
+@media (min-width: 768px) { 
+
+    #main {
+        background: url('/img/gesnet-bg.png');
+        background-repeat: no-repeat;
+        background-size:cover; 
+        height: 100vh;
+    }
+
+    .navbar a {
+        display: block
+    }
+
+    #main-logo {
+        display: none;
+    }
+
+    #main-subtitle {
+        margin-top: 25%;
+    }
+
+    .navbar-brand {
+        display:block;
+    }
+
+    .navbar-brand a {
+        color: white;
+        font-size: xx-large;
+    }
+
+
+
+}
