@@ -13,6 +13,10 @@ body {
     display: none
 }
 
+#main-bg-logo {
+    display: none;
+}
+
 #main-subtitle {
     margin-top: 15%;
 }
@@ -95,8 +99,12 @@ body {
         display: none;
     }
 
+    #main-bg-logo {
+        display: block;
+    }
+
     #main-subtitle {
-        margin-top: 25%;
+        margin-top: 5em;
     }
 
     .navbar-brand {
