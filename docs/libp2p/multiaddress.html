@@ -1,0 +1,72 @@
+<div class="row">
+    <h1>Multiaddress</h1>
+    <hr>
+</div>
+<div class="container my-3">
+
+    <p>
+        Il protocollo di rete libp2p si occupa di instaurare un dialogo tra i peers in ascolto stabilendo una comunicazione sicura. Per far ciò si serve di tre strategie, ovvero negoziazione del protocollo (protocol negotiation), identificazione univoca dei peer (peer identity o PeerID) e utilizzo di prefissi multiaddress.
+    </p>
+    <p>
+        Ogni protocollo è identificato attraverso un protocol id:
+    </p>
+    <div class="container text-center my-4">
+        <code>
+            /my-app/amazing-protocol/1.0.1
+        </code>
+    </div>
+    
+    <p>
+        in cui viene riportata anche la versione, ogni aggiornamento al protocollo porterà ad una versione successiva dl protocol id.
+    </p>
+    <p>
+        Quando inizia il dialogo tra due peer, libp2p invia in rete il protocol id del protocollo che si vuole utilizzare; se i peer in ascolto non supportano il protocollo allora il dialogo viene chiuso e viene riprovato in seguito. Se invece il protocollo è supportato, il peer in ascolto risponderà inviando lo stesso protocol id in modo da impostare i parametri per le connessioni future.
+    </p>
+    <p>
+        Durante il dialogo si può offrire una lista di protocolli invece che uno solo, quando si offre una lista di protocol ids saranno provati tutti in successione e il primo protocollo supportato verrà utilizzato per la comunicazione. 
+    </p>
+
+    <div class="container text-center my-4">
+        <code>
+            /ip4/1.2.3.4/tcp/6543
+        </code>
+    </div>
+    <p>
+        Per stabilire come raggiungere gli altri peers libp2p usa una convenzione denominata ‘multiaddress’ o multiaddr: una stringa autodescrittiva che contiene al proprio interno sia l’indirizzo IP che la porta TCP del peer
+    </p>
+    
+    <br>
+
+    <h3>PeerID</h3>
+    <p>
+        Un PeerID è un codice che permette di identificare univocamente un peer all’interno della rete IPFS. All’inizializzazione di un nodo ad un peer viene assegnata una coppia di chiavi: 
+    </p>
+    <ul>
+        <li>Chiave Pubblica: l’impronta digitale (multihash) della chiave pubblica di un peer viene utilizzata per identificare univocamente il nodo</li>
+        <li>Chiave Privata: viene utilizzata dal peer per convertire in modo corretto i contenuti codificati dal mittente con la sua chiave pubblica</li>
+    </ul>
+    <p>
+        L’impronta digitale della chiave pubblica viene infine convertita in stringa attraverso l’applicazione della funzione base58, un PeerID apparirà quindi come:
+    </p>
+    <div class="container text-center my-4">
+        <code>
+            p2p/Qmfybd34g8gYGYgr84ytjahsyvkf...
+        </code>
+    </div>
+    
+
+    <p>
+        Un indirizzo multiaddress è rappresentabile come:
+    </p>
+    <div class="container text-center my-4">
+        <code>
+            /ip4/1.2.3.4/tcp/6543/p2p/Qmfybd34g8gYGYgr84ytjahsyvkf...
+        </code>
+    </div>
+    
+    <p>
+        L’identificazione dei peers attraverso il proprio indirizzo TCP/IP e la loro impronta digitale criptata rende impossibile l’impersonificazione in quanto anche disponendo di IP e porta il PeerID non coinciderebbe.
+    </p>
+</div>
+
+
