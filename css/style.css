@@ -2,6 +2,10 @@ body {
     width: 100%;
 }
 
+#content {
+    font-size: 1.4em;
+}
+
 #main {
     background: url("../img/poster-mobile.png") center;
     background-repeat: no-repeat;
