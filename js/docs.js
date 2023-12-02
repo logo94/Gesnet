@@ -1,17 +1,14 @@
 $(document).ready(function(){
 
-    $('#intro').parent().addClass('active');
-
-    $('#intro').ready(function(){
-        $('#content').load("./docs/intro/intro.md");
-    });
-    
+    $('#intro').parent().addClass('active'); 
 
     $('#intro').click(function(){
         $('.nav-link').removeClass('active');
         $('#intro').parent().addClass('active');
         $('#content').load("./docs/intro/intro.html");
     });
+
+    $('#intro').trigger("click");
 
     $('#client-server').click(function(){
         $('.nav-link').removeClass('active');
