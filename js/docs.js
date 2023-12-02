@@ -13,7 +13,7 @@ $(document).ready(function(){
     $('#client-server').click(function(){
         $('.nav-link').removeClass('active');
         $(this).parent().addClass('active');
-        $('#content').load("./docs/intro/client-server.html");
+        $('#content').load("./docs/intro/client-server.md");
     });
 
     $('#modello').click(function(){
