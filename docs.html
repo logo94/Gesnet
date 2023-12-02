@@ -13,7 +13,112 @@
 
     <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 
-    <script src="./js/docs.js"></script>
+<script>
+$(document).ready(function(){
+
+    $('#intro').parent().addClass('active');
+
+    $('#content').load("./docs/intro/intro.md");
+
+    $('#intro').click(function(){
+        $('.nav-link').removeClass('active');
+        $('#intro').parent().addClass('active');
+        $('#content').load("./docs/intro/intro.md");
+    });
+
+    $('#client-server').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/intro/client-server.md");
+    });
+
+    $('#modello').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/intro/model.md");
+    });
+
+    $('#ipfs').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/ipfs/ipfs-intro.md");
+    });
+
+    $('#cba').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/ipfs/content-based-addressing.md");
+    });
+
+    $('#multiformat').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/ipfs/multiformat.md");
+    });
+
+    $('#merkle').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/ipfs/merkle-dag.md");
+    });
+
+    $('#ipld').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/ipfs/ipld.md");
+    });
+
+    $('#p2p').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/libp2p/p2p.md");
+    });
+
+    $('#multiaddr').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/libp2p/multiaddress.md");
+    });
+
+    $('#routing').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/libp2p/routing.md");
+    });
+
+    $('#exchange').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/libp2p/exchange.md");
+    });
+
+    $('#pnet').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/libp2p/private-network.md");
+    });
+
+    $('#gateway').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/libp2p/ipfs-gateway.md");
+    });
+
+    $('#ipfs-cluster').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/ipfs-cluster/ipfs-cluster.md");
+    });
+
+    $('#ipwb').click(function(){
+        $('.nav-link').removeClass('active');
+        $(this).parent().addClass('active');
+        $('#content').load("./docs/wayback/ipwb.md");
+    });
+   
+    
+});
+</script>
 
 </head>
 <body>
