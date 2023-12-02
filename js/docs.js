@@ -1,7 +1,10 @@
 $(document).ready(function(){
 
     $('#intro').parent().addClass('active');
-    $('#content').load("./docs/intro/intro.md");
+
+    setTimeout( function(){
+        $('#content').load("./docs/intro/intro.md");
+    }, 1000);
     
 
     $('#intro').click(function(){
