@@ -2,9 +2,9 @@ $(document).ready(function(){
 
     $('#intro').parent().addClass('active');
 
-    setTimeout( function(){
+    $('#intro').ready(function(){
         $('#content').load("./docs/intro/intro.md");
-    }, 1000);
+    });
     
 
     $('#intro').click(function(){
