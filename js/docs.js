@@ -8,6 +8,7 @@ $(document).ready(function(){
         $('#content').load("./docs/intro/intro.html");
     });
 
+    $('#client-server').trigger("click");
     $('#intro').trigger("click");
 
     $('#client-server').click(function(){
