@@ -1,8 +1,8 @@
 $(document).ready(function(){
 
-    $('#intro').parent().addClass('active', function(){
-        $('#content').load("./docs/intro/intro.md");
-    });
+    $('#intro').parent().addClass('active');
+    $('#content').load("./docs/intro/intro.md");
+    
 
     $('#intro').click(function(){
         $('.nav-link').removeClass('active');
