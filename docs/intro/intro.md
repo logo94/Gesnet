@@ -9,7 +9,7 @@
 L’attuale architettura di Internet presenta una serie di vulnerabilità, sia in termini di identificazione delle risorse che di accesso a lungo termine ai contenuti nativi digitali. 
 
 
-Dei 1.11 miliardi di siti web pubblicati in tutto il mondo, solo il 18% è attualmente <a class="text-decoration-none" href="https://siteefy.com/how-many-websites-are-there/>attivo</a>, per il restante 82% viene quindi tornato il tipico <b>Errore 404</b>. 
+Dei 1.11 miliardi di siti web pubblicati in tutto il mondo, solo il 18% è attualmente [attivo](https://siteefy.com/how-many-websites-are-there/), per il restante 82% viene quindi tornato il tipico <b>Errore 404</b>. 
 
 
 Per il solo contesto italiano, dei quasi 8 milioni di domini .it registrati dal 2008 oltre 5,5 milioni sono stati [cancellati](https://stats.nic.it/domain/delete). Ad oggi solo poco più del 25% dei siti è quindi ancora raggiungibile.
