@@ -1,9 +1,7 @@
 <div class="row text-center">
-    [![](https://github.com/logo94/Gesnet/blob/main/docs/intro/img/logo.png)](https://github.com/logo94/Gesnet/blob/main/docs/intro/img/logo.png)
-    <div class="card border-0 justify-content-center my-4" style="background-color: transparent; width: 30em;">
-        <img src="../docs/intro/img/logo.png" class="card-img-top mx-auto rounded" alt="..." style="width: 30em;">
+    <div class="justify-content-center my-4">
+        <img src="https://github.com/logo94/Gesnet/blob/main/docs/intro/img/logo.png" style="width: 30em;">
     </div>
-    
     <h3 class="mt-3">Modello di rete decentralizzata per l’accesso permanente al patrimonio culturale digitale</h3>
 </div>
     
