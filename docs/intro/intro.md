@@ -1,5 +1,5 @@
 <div class="text-center">
-    <img src="https://github.com/logo94/Gesnet/blob/main/docs/intro/img/logo.png">
+    <img src="/docs/intro/img/logo.png">
     <br>
     <h3 class="mt-3">Modello di rete decentralizzata per l’accesso permanente al patrimonio culturale digitale</h3>
 </div>
