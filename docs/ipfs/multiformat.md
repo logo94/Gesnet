@@ -59,25 +59,25 @@ Una lista dei codecs è disponibile al seguente [link](https://github.com/multif
 per rendere la sequenza binaria sopra riportata human-friendly tale sequenza può essere codificata con una ulteriore funzione. Un ulteriore prefisso denominato multibase indicherà quale funzione è stata usata per la codifica
 
 La versione 0 (CIDv0) per la conversione della sequenza binaria in stringa utilizza di default la funzione base58btc che, in quanto fissa, rimane implicita. Un esempio di CIDv0 può essere:
-
+<br>
 <div class="text-center">
     <code>QmvjhV65fuvUvf75FUjUhf56GYTF67fvJFUTUHVa</code>
 </div>
-    
+<br>    
 La versione 1 supporta ulteriori funzioni, un esempio di CIDv1 può infatti essere:
-
+<br>
 <div class="text-center">
     <code>bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3</code>
 </div>
-
+<br>
 in cui la b iniziale corrisponde all'identificativo multibase della base di codifica base32, utilizzato per molte implementazioni su IPFS. Gli identificatori multibase sono elencati al seguente [link](https://github.com/multiformats/multibase/blob/master/multibase.csv)
 
 Il CIDv1 di un blocco può quindi essere rappresentato sotto forma di stringa come:
-
+<br>
 <div class="text-center">
     <code>[multibase-prefix][multicodec-cidv1][multicodec-content-type][multihash-content-address]</code>
 </div>
-
+<br>
 Un blocco è quindi identificabile attraverso due versioni:
 
 1. una sequenza binaria che rappresenta i dati e la loro codifica
