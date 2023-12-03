@@ -48,7 +48,7 @@ Nell’esempio riportato dag-pb corrisponde a un IPLD codec corrispondente al li
 Più semplicemente il CIDv1 può quindi essere rappresentato come:
 <br>
 <div class="text-center">
-    <img src="docs/ipfs/img/cid.png" class="card-img-top mx-auto rounded" alt="..." style="width: 25em;">
+    <img src="docs/ipfs/img/cid.png" style="width: 25em;">
 </div>
 <br>
 Una lista dei codecs è disponibile al seguente [link](https://github.com/multiformats/multicodec/blob/master/table.csv)
@@ -60,19 +60,23 @@ per rendere la sequenza binaria sopra riportata human-friendly tale sequenza pu�
 
 La versione 0 (CIDv0) per la conversione della sequenza binaria in stringa utilizza di default la funzione base58btc che, in quanto fissa, rimane implicita. Un esempio di CIDv0 può essere:
 
-
-<code>QmvjhV65fuvUvf75FUjUhf56GYTF67fvJFUTUHVa</code>
- 
+<div class="text-center">
+    <code>QmvjhV65fuvUvf75FUjUhf56GYTF67fvJFUTUHVa</code>
+</div>
     
 La versione 1 supporta ulteriori funzioni, un esempio di CIDv1 può infatti essere:
 
-<code>bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3</code>
+<div class="text-center">
+    <code>bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3</code>
+</div>
 
 in cui la b iniziale corrisponde all'identificativo multibase della base di codifica base32, utilizzato per molte implementazioni su IPFS. Gli identificatori multibase sono elencati al seguente [link](https://github.com/multiformats/multibase/blob/master/multibase.csv)
 
 Il CIDv1 di un blocco può quindi essere rappresentato sotto forma di stringa come:
 
-<code>[multibase-prefix][multicodec-cidv1][multicodec-content-type][multihash-content-address]</code>
+<div class="text-center">
+    <code>[multibase-prefix][multicodec-cidv1][multicodec-content-type][multihash-content-address]</code>
+</div>
 
 Un blocco è quindi identificabile attraverso due versioni:
 
