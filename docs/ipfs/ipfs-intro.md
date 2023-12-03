@@ -32,7 +32,8 @@ IPFS introduce due componenti fondamentali:
           </div>
         </div>
       </div>
-    </div>
+</div>
+
 
 Più che un semplice protocollo, IPFS può essere definito come un movimento coordinato da <a class="text-decoration-none" href="https://protocol.ai/">Protocol Lab</a>, laboratorio di ricerca, sviluppo e implementazione open-source. L'ecosistema di IPFS si pone l'obbiettivo di creare un web permanente, più trasparente e libero. 
 Questo mettendo a disposizione una serie di strumenti software:
