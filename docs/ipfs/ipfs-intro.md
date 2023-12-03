@@ -10,29 +10,22 @@
 
 IPFS introduce due componenti fondamentali:
     
-<div class="container py-1">
-    <div class="row row-cols-1 row-cols-md-2 g-4 mt-5">
-      <div class="col text-center">
-        <div class="card border-0 justify-content-center" style="background-color: transparent;">
-          <img src="./img/p2p.png" class="card-img-top mx-auto rounded" alt="..." style="width: 20em;">
-          <div class="card-body mt-3">
-            <h5 class="card-title">Architettura peer-to-peer</h5>
-            <p class="card-text">L'utilizzo di un sistema peer-to-peer permette di creare una rete privata, inaccessibile dall'esterno e all'interno della quale la comunicazione avviene direttamente tramite i nodi, senza passare per server o nameserver di terze parti</p>
-            <p class="card-text">Anche qualora un nodo vada offline, altri nodi potranno fornire i documenti richiesti o agire da tramite tra altri nodi.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col text-center">
-        <div class="card border-0 justify-content-center" style="background-color: transparent;">
-          <img id="content-based" src="./img/content-based.png" class="card-img-top mx-auto rounded" alt="...">
-          <div class="card-body mt-3">
-            <h5 class="card-title">Content-based addressing</h5>
-            <p class="card-text">Le risorse invece che essere individuate attraverso il proprio URL, e quindi la propria posizione all’interno della rete, vengono identificate attraverso codici identificativi univoci desunti direttamente dal loro contenuto</p>
-            <p class="card-text">L'identificazione per mezzo del contenuto di una risorsa pone le basi per un ambiente interoperabile senza bisogno di precoordinazione, permettendo una deduplicazione controllata e garantendo l'integrità e autenticità dei dati</p>  
-          </div>
-        </div>
-      </div>
+<h5 class="card-title">Architettura peer-to-peer</h5>
+<div class="text-center">
+    <img src="./img/p2p.png">
 </div>
+<br>
+L'utilizzo di un sistema peer-to-peer permette di creare una rete privata, inaccessibile dall'esterno e all'interno della quale la comunicazione avviene direttamente tramite i nodi, senza passare per server o nameserver di terze parti
+Anche qualora un nodo vada offline, altri nodi potranno fornire i documenti richiesti o agire da tramite tra altri nodi.
+
+
+<h5 class="card-title">Content-based addressing</h5>
+<div class="text-center">
+  <img id="content-based" src="./img/content-based.png">
+</div>
+<br>
+Le risorse invece che essere individuate attraverso il proprio URL, e quindi la propria posizione all’interno della rete, vengono identificate attraverso codici identificativi univoci desunti direttamente dal loro contenuto
+L'identificazione per mezzo del contenuto di una risorsa pone le basi per un ambiente interoperabile senza bisogno di precoordinazione, permettendo una deduplicazione controllata e garantendo l'integrità e autenticità dei dati
 
 
 Più che un semplice protocollo, IPFS può essere definito come un movimento coordinato da <a class="text-decoration-none" href="https://protocol.ai/">Protocol Lab</a>, laboratorio di ricerca, sviluppo e implementazione open-source. L'ecosistema di IPFS si pone l'obbiettivo di creare un web permanente, più trasparente e libero. 
