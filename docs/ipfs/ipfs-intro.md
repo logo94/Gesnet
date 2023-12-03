@@ -10,7 +10,7 @@
 
 IPFS introduce due componenti fondamentali:
     
-<h5 class="card-title">Architettura peer-to-peer</h5>
+<h3 class="card-title">Architettura peer-to-peer</h3>
 <div class="text-center">
     <img src="./img/p2p.png">
 </div>
@@ -19,7 +19,7 @@ L'utilizzo di un sistema peer-to-peer permette di creare una rete privata, inacc
 Anche qualora un nodo vada offline, altri nodi potranno fornire i documenti richiesti o agire da tramite tra altri nodi.
 
 
-<h5 class="card-title">Content-based addressing</h5>
+<h3 class="card-title">Content-based addressing</h3>
 <div class="text-center">
   <img id="content-based" src="./img/content-based.png">
 </div>
