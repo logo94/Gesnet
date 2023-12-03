@@ -9,7 +9,7 @@ Un sistema completamente decentralizzato e accessibile a chiunque (permissionles
 
 Per far fronte a queste problematiche sono state ideate diverse soluzioni, di natura prevalentemente tecnologica:
 <br>
-<h5>Filecoin</h5>
+<h4>Filecoin</h4>
 Filecoin è un progetto ideato e promosso dalla Filecoin Foundation che cerca di costituire una mercato alternativo per l'archiviazione dei dati. A differenza del modello di archiviazione in cloud Filecoin propone un'economia basata su una criptovaluta, Filecoin, e sull'utilizzo della blockchain per regolare la condotta dei nodi.
 Per poter affittare parte del proprio spazio su disco, un nodo deve versare una cifra in Filecoin che funge da garanzia per la sua buona condatta. Due nodi possono quindi stipulare dei contratti (smart contract) affinchè in cambio di una cifra concordata un nodo si impegna a conservare i dati e mantenerli accessibili in modo continuativo.
 In seguito al salvataggio del contratto all'interna della blockchain viene attivato uno smart contract che ad intervalli di tempo regolari verifica l'effettivo possesso dei dati da parte del nodo che li ha presi in custodia: se al momento della verifica il nodo sarà in possesso di quei specifici contenuti, questo riceverà un premio in Filecoin,
@@ -21,7 +21,7 @@ In questo modo è possibile garantire la buona condotta dei nodi che saranno qui
 Nonostante Filecoin si stia pian piano conformando come effettiva alternativa ai tradizionali sistemi in cloud, la sua adozione presenta ancora una discreta serie di barriere d'accesso, prime tra tutte la difficoltà d'uso per un utente medio, le avanzate componenti hardware necessarie per poter affittare il proprio spazio di archiviazione e 
 la necessità di disporre di un capitale iniziale per poter entrare a far parte dell'ecosistema.
 
-<h5>Servizi commerciali</h5>
+<h4>Servizi commerciali</h4>
 In alternativa a Filecoin, negli anni sono sorti molteplici servizi che mettono a disposizione dei propri nodi in giro per il globo tramite i quali disseminare più copie dei propri contenuti. Tra questi si possono menzionare servizi come
 [Pinata](https://www.pinata.cloud/) e [Web3 Storage](https://web3.storage/)
 
@@ -38,7 +38,9 @@ Il contenuto di un file swarm.key è un'impronta digitale (hash) di una sequenza
 <div class="text-center">
 <code>
 /key/swarm/psk/1.0.0/
+  
 /base16/
+
 25f64b1cf31f649819d495e446d4cbcc99000b8cc052a89b681e5f86f995fa28
 </code>
 </div>
