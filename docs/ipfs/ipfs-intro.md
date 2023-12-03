@@ -5,12 +5,12 @@
 <div class="text-center">
     <img src="docs/ipfs/img/ipfs-logo.png">
 </div>
-<br>
 [InterPlanetary File System](https://ipfs.tech/), in breve IPFS, è un sistema dati distribuito basato su architettura peer-to-peer che, proponendosi come evoluzione del web tradizionale, mira a connettere tutti i dispositivi computazionali tramite un unico sistema di file (system of files)
 
 IPFS introduce due componenti fondamentali:
     
 <h3 class="card-title">Architettura peer-to-peer</h3>
+<br>
 <div class="text-center">
     <img src="./img/p2p.png">
 </div>
@@ -20,6 +20,7 @@ Anche qualora un nodo vada offline, altri nodi potranno fornire i documenti rich
 
 
 <h3 class="card-title">Content-based addressing</h3>
+<br>
 <div class="text-center">
   <img id="content-based" src="./img/content-based.png">
 </div>
